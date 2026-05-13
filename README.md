@@ -1,5 +1,10 @@
 # expo-wearable-messaging
 
+[![npm version](https://img.shields.io/npm/v/expo-wearable-messaging.svg)](https://www.npmjs.com/package/expo-wearable-messaging)
+[![npm downloads](https://img.shields.io/npm/dm/expo-wearable-messaging.svg)](https://www.npmjs.com/package/expo-wearable-messaging)
+
+Published on [npm](https://www.npmjs.com/package/expo-wearable-messaging) as `expo-wearable-messaging`.
+
 Expo native module for **phone ↔ companion watch** messaging:
 
 - **Android (phone):** Google Play Services **Wearable Data Layer** — Message API for send/receive, plus optional **Data Layer** items for mirrored JSON (see defaults below).
@@ -29,11 +34,19 @@ iOS has **no path** concept: the watch receives the same dictionary the phone se
 
 ## Install (Expo)
 
-1. Add the dependency (path or npm, depending on your monorepo):
+1. Add the dependency from **npm**:
 
-   ```json
-   "expo-wearable-messaging": "file:./modules/expo-wearable-messaging"
+   ```bash
+   npx expo install expo-wearable-messaging
    ```
+
+   Or with npm / yarn / pnpm:
+
+   ```bash
+   npm install expo-wearable-messaging
+   ```
+
+   Package page: [npmjs.com/package/expo-wearable-messaging](https://www.npmjs.com/package/expo-wearable-messaging).
 
 2. Run `npx expo prebuild` (or EAS Build) so **iOS Pods** and **Android Gradle** pick up the module.
 
@@ -226,4 +239,4 @@ If you need a different message path or Data Layer convention:
 
 ## License
 
-MIT (see `package.json`).
+MIT — see [`LICENSE`](./LICENSE).
