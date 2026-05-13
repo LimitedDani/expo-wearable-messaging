@@ -1,0 +1,74 @@
+{
+  "name": "expo-wearable-messaging",
+  "version": "1.0.0",
+  "description": "Phone ↔ Wear OS (Message API) and Apple Watch (WatchConnectivity) — single Expo module for JSON messaging between a phone app and its companion watch.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios"
+  },
+  "keywords": [
+    "expo",
+    "expo-module",
+    "react-native",
+    "wear-os",
+    "wearable",
+    "watchconnectivity",
+    "apple-watch",
+    "messaging",
+    "data-layer",
+    "companion",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LimitedDani/expo-wearable-messaging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LimitedDani/expo-wearable-messaging/issues"
+  },
+  "author": "LimitedDani",
+  "license": "MIT",
+  "homepage": "https://github.com/LimitedDani/expo-wearable-messaging#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "build",
+    "android",
+    "ios",
+    "src",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "expo-module-scripts": "^55.0.2",
+    "expo-modules-core": "^2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

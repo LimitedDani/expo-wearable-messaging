@@ -1,0 +1,44 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# Build output
+build/
+dist/
+*.tsbuildinfo
+
+# Android / Gradle
+android/build/
+android/.gradle/
+android/local.properties
+*.iml
+
+# iOS / CocoaPods
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/xcuserdata
+**/*.xcuserstate
+
+# Expo
+.expo/
+.expo-shared/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Misc
+*.log
+coverage/
+.eslintcache

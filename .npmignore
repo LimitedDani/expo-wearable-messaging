@@ -1,0 +1,14 @@
+# package.json `files` is the source of truth, but keep an .npmignore as a
+# safety net for anything that ever slips outside the allowlist.
+.github/
+.gitignore
+.vscode/
+.idea/
+.expo/
+example/
+node_modules/
+coverage/
+*.log
+*.tgz
+*.tsbuildinfo
+.DS_Store

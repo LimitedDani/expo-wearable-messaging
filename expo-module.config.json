@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ExpoWearableMessagingModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.wearmessaging.ExpoWearableMessagingModule"]
+  }
+}
