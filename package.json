@@ -1,6 +1,6 @@
 {
   "name": "expo-wearable-messaging",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Phone ↔ Wear OS (Message API) and Apple Watch (WatchConnectivity) — single Expo module for JSON messaging between a phone app and its companion watch.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
